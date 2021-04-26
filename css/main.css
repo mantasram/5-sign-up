@@ -1,0 +1,49 @@
+body { background-color: aquamarine;
+
+}
+
+.container {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc((100% - 800px)/2);
+    margin-top: 100px;
+
+}
+
+.left-column {
+    display: inline-block;
+    width: 40%;
+    float: left;
+
+}
+
+.main-title {
+
+}
+
+.bottom-links {
+
+}
+
+.bottom-links > a {
+
+}
+
+.bottom-links > span {
+
+}
+
+
+.right-column {
+    width: 60%;
+    float: left;
+
+}
+
+.close {
+
+}
+
+.form [
+
+]
