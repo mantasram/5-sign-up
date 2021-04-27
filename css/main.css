@@ -1,5 +1,10 @@
+body,
 body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body { background-color: aquamarine;
@@ -15,9 +20,10 @@ body { background-color: aquamarine;
 }
 
 .left-column {
-    display: inline-block;
     width: 40%;
+    padding: 40px;
     float: left;
+    background-color: white;
 
 }
 
@@ -41,8 +47,8 @@ body { background-color: aquamarine;
 .right-column {
     width: 60%;
     float: left;
-    padding: 40px ;
-    border: 5px;
+    padding: 60px ;
+    background-color:white;
 
 }
 
@@ -50,6 +56,57 @@ body { background-color: aquamarine;
 
 }
 
-.form [
+.form {
+    display: inline-block;
+    width: 100%;
 
-]
+
+}
+
+.form_row {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.form_row + .form_row {
+    margin-top: 40px;
+}
+
+
+
+label {
+    display: inline-block;
+    width: 100%;
+    color:rgb(167, 165, 165);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+
+
+
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.8em ;
+    border: none;
+    border-bottom: 1px solid rgb(209, 209, 209);
+
+}
+
+button {
+
+}
+
+.form-row > span {
+
+}
+
+.form-row > {
+    
+}
+
