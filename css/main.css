@@ -14,8 +14,7 @@ body { background-color: aquamarine;
 .container {
     display: inline-block;
     width: 800px;
-    margin-left: calc((100% - 800px)/2);
-    margin-top: 100px;
+    margin: 100px calc((100% - 800px)/2) 0;
 
 }
 
@@ -23,7 +22,7 @@ body { background-color: aquamarine;
     width: 40%;
     padding: 40px;
     float: left;
-    background-color: white;
+    background-color: pink;
 
 }
 
@@ -99,14 +98,28 @@ input {
 }
 
 button {
+background-color: #015cda;
+border: 1px solid #015;
+color: white;
+padding: 10px 30px 10px 30px;
+font-size: 18px;
+line-height: 20px;
+border-radius: 21px;
+float: left;
 
 }
 
-.form-row > span {
+.form_row > span {
+    float: left;
+    padding: 11px;
+    line-height: 20px;
 
 }
 
-.form-row > {
-    
+.form_row > a {
+    float: left;
+    padding: 11px;
+    line-height: 20px;
+
 }
 
