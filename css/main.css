@@ -23,22 +23,31 @@ body { background-color: aquamarine;
     padding: 40px;
     float: left;
     background-color: pink;
+    background-image: url(../img/hill.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
 
+
 .main-title {
+    color: white;
 
 }
 
 .bottom-links {
+    color: white;
+
 
 }
 
 .bottom-links > a {
+    color: white;
 
 }
 
 .bottom-links > span {
+    color: white;
 
 }
 
