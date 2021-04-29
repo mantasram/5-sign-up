@@ -5,6 +5,7 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 .background {
@@ -15,9 +16,11 @@ body * {
     background-position: center;
     filter: blur(20px);
     height: 100vh;
+
 }
 
 body { 
+    background-color:blue;
 
 
 }
@@ -132,12 +135,13 @@ input {
     line-height: 1.8em ;
     border: none;
     border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 0 10px;
 
 }
 
 button {
 background-color: #015cda;
-border: 1px solid #015;
+border: 1px solid #015cda;
 color: white;
 padding: 10px 30px 10px 30px;
 font-size: 18px;
@@ -146,6 +150,7 @@ border-radius: 21px;
 float: left;
 
 }
+
 
 .form_row > span {
     float: left;
@@ -158,6 +163,17 @@ float: left;
     float: left;
     padding: 11px;
     line-height: 20px;
+    text-decoration: none;
 
 }
 
+.form_row > a:hover {
+
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: #0c438f;
+    cursor: pointer;
+
+}
